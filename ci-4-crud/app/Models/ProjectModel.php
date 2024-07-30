@@ -14,8 +14,6 @@ class ProjectModel extends Model
     protected $protectFields    = true;
     protected $allowedFields    = ['name', 'description'];
     
-    protected bool $allowEmptyInserts = false;
-    protected bool $updateOnlyChanged = true;
 
     protected array $casts = [];
     protected array $castHandlers = [];
